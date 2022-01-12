@@ -18,7 +18,7 @@ export default function nav() {
             <a href="#">Home</a>
           </div>
           <div style={linkStyle}>
-            <a href="#">About</a>
+            <a href="#">About Me</a>
           </div>
           <div style={linkStyle}>
               <a href="#">My Projects</a>
