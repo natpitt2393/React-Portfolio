@@ -7,7 +7,8 @@ export default function nav() {
         <section
           style={{
             display: 'flex',
-            fontFamily: 'helvetica',
+            fontFamily: 'times-new-roman',
+            fontWeight: 'bold',
             flexDirection: 'row',
             alignItems: 'flex-start',
             justifyContent: 'flex-start',
@@ -17,13 +18,10 @@ export default function nav() {
             <a href="#">Home</a>
           </div>
           <div style={linkStyle}>
-            <a href="#">Login</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">Register</a>
-          </div>
-          <div style={linkStyle}>
             <a href="#">About</a>
+          </div>
+          <div style={linkStyle}>
+              <a href="#">My Projects</a>
           </div>
           <div style={linkStyle}>
             <a href="#">Contact</a>
