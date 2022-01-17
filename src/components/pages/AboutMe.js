@@ -11,7 +11,7 @@ export default function AboutMe() {
       <p className='px-5'>
         Nat holds a BA in Cinema and Media Studies from the University of Chicago and an MA in Media Studies from The New School. He loves playing with his cat, Orbison, named after the great rockabilly sensation Roy Orbison, who is currently helping him code as he speaks. He also is a film buff who greatly enjoys all types of music, from Biggie Smalls to the Doors, and watching the Pittsburgh Steelers in the fall every Sunday afternoon!
       </p>
-      <img src={natImg} width='30%' length='30%'></img>
+      <img src={natImg} width='30%' length='30%' alt='Nat Epstein'></img>
     </div>
   );
 }
