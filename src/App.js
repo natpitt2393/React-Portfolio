@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Nav from './components/Nav';
 import AboutMe from './components/pages/AboutMe';
 import Projects from './components/pages/Projects';
 import Resume from './components/pages/Resume';
@@ -28,7 +29,7 @@ function App() {
   
     return (
       <div>
-        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
       </div>
     );
