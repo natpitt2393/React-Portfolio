@@ -1,32 +1,50 @@
 import React from 'react';
 
-export default function nav() {
-    const linkStyle = { border: '1px black', padding: '10px'}
-    return (
-        <nav className="main-header-menu">
-        <section
-          style={{
-            display: 'flex',
-            fontFamily: 'times-new-roman',
-            fontWeight: 'bold',
-            flexDirection: 'row',
-            alignItems: 'flex-start',
-            justifyContent: 'flex-start',
-          }}
+function Nav({ currentPage, handlePageChange }) {
+  return (
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#about-me"
+          onClick={() => handlePageChange('AboutMe')}
+          
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
         >
-          <div style={linkStyle}>
-            <a href="#">Home</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">About Me</a>
-          </div>
-          <div style={linkStyle}>
-              <a href="#">My Projects</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#">Contact</a>
-          </div>
-        </section>
-      </nav>
-    )
+          About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+         
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact Me
+        </a>
+      </li>
+    </ul>
+  );
 }
+
+export default Nav;
