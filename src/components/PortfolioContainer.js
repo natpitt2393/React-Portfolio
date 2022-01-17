@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <h1 className='jumbotron text-center'>Nat Epstein's Portfolio</h1>
+      <h1 className='jumbotron text-center text-primary'>Nat Epstein's Portfolio</h1>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
