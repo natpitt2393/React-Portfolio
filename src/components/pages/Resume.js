@@ -14,8 +14,8 @@ export default function Resume() {
                 !
             </p>
             </div>
-            <table class="table text-center mt-5">
-                <thead class="thead-dark">
+            <table className="table text-center mt-5">
+                <thead className="thead-dark">
                     <tr>
                         <th scope="col">Frontend</th>
                     </tr>
@@ -39,8 +39,8 @@ export default function Resume() {
                 </tbody>
             </table>
 
-            <table class="table text-center mt-5">
-                <thead class="thead-light">
+            <table className="table text-center mt-5">
+                <thead className="thead-light">
                     <tr>
                         <th scope="col">Backend</th>
                     </tr>
