@@ -38,6 +38,10 @@
   color: white;
 }
 
+.contactMe {
+  background-color: gray;
+}
+
 .resume{
   background-color: magenta;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
