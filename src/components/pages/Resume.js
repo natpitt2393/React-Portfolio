@@ -4,7 +4,7 @@ import resume from '../assets/NHERESUME.pdf';
 
 export default function Resume() {
     return (
-        <div>
+        <div className="resume">
             <div className='text-center'>
             <p>
                 Download my{" "}
