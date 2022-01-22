@@ -8,13 +8,13 @@ export default function Contact() {
         <h1>Contact me by email</h1>
         <form class="row g-3">
           <div class="col-md-6">
-            <label for="Name" class="form-label"> Name </label>
-            <input type="text" class="form-control" id="firstName" required></input>
+            <label for="name" class="form-label"> Name </label>
+            <input type="text" class="form-control" id="name" required></input>
           </div>
 
           <div class="col-md-8">
-            <label for="emailInfo" class="form-label"> E-mail </label>
-            <input type="email" class="form-control" id="emailInfo" required></input>
+            <label for="email" class="form-label"> E-mail </label>
+            <input type="email" class="form-control" id="email" required></input>
           </div>
 
           <div class="col-md-12">
