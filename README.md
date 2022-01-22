@@ -8,7 +8,7 @@ Project Name: React-Portfolio
 
 
 ## Description
-Description: Created a new professional react portfolio from scratch. Added header and section semantic elements and had three sections for: About Me, Work, and Contact Me. 
+Description: Created a new professional react portfolio from scratch. I have sections for About Me, Resume, Portfolio and Contact Me. Each page can be rendered by pushing on the appropriate tab in the nav bar. Each page will have the same footer and header that are components.
 
 
 ## Table of Contents
