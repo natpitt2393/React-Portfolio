@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.9f9ec862.css",
-    "main.js": "/React-Portfolio/static/js/main.1ef47536.js",
+    "main.css": "/React-Portfolio/static/css/main.98624ee5.css",
+    "main.js": "/React-Portfolio/static/js/main.f2d73295.js",
     "static/media/MAINEAC.png": "/React-Portfolio/static/media/MAINEAC.34457c4dae43590bd312.png",
     "static/media/NHE_pic.JPG": "/React-Portfolio/static/media/NHE_pic.dda890b0cdda15e169e2.JPG",
     "static/media/MAINDAY.png": "/React-Portfolio/static/media/MAINDAY.b5c60a847b3ef6788250.png",
     "static/media/LOGINMHT.png": "/React-Portfolio/static/media/LOGINMHT.b03a0f4341861ac5d4fb.png",
-    "static/media/NHERESUME.pdf": "/React-Portfolio/static/media/NHERESUME.bcdf3c57273fe2e43d2c.pdf",
+    "static/media/New_Nat_Epstein_Resume.pdf": "/React-Portfolio/static/media/New_Nat_Epstein_Resume.40cdf2f1fdfdf0b9feb2.pdf",
     "static/media/Screenshot-Index.png": "/React-Portfolio/static/media/Screenshot-Index.5d7851723766e447dd9b.png",
     "static/media/email.png": "/React-Portfolio/static/media/email.dbf14da7fa77545ea19d.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.9f9ec862.css.map": "/React-Portfolio/static/css/main.9f9ec862.css.map",
-    "main.1ef47536.js.map": "/React-Portfolio/static/js/main.1ef47536.js.map"
+    "main.98624ee5.css.map": "/React-Portfolio/static/css/main.98624ee5.css.map",
+    "main.f2d73295.js.map": "/React-Portfolio/static/js/main.f2d73295.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f9ec862.css",
-    "static/js/main.1ef47536.js"
+    "static/css/main.98624ee5.css",
+    "static/js/main.f2d73295.js"
   ]
 }
