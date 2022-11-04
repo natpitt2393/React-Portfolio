@@ -1,28 +1,34 @@
 import React from 'react';
-import github from './images/GitHub.png'
-import linkedIn from './images/LinkedIn.png'
-import email from './images/email.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+
 
 export default function Footer() {
     return (
-        <div className="text-center bg-warning">
-            <h1>Contact Me!</h1>
+        <footer className="footer">
+        <div className="text-center">
             <a
                 href="https://github.com/natpitt2393"
             >
-                <img src={github} alt="Nat Github" height="10%" width="10%"/>
+                <i className="fa fa-github fa-4x">
+                    <FontAwesomeIcon icon={faGithub} />
+                </i>
             </a>
             <a
-                href="https://www.linkedin.com/in/nat-epstein-7359b19a/"
+                href="https://www.linkedin.com/in/nathaniel-epstein-7359b19a/"
             >
-                <img src={linkedIn} alt="Nat LinkedIn" height="10%"  width="10%"/>
+                <i className="fa fa-linkedin fa-4x">
+                    <FontAwesomeIcon icon={faLinkedin} />
+                </i>
+                
             </a>
             <a href="mailto:nathaniel.epstein@gmail.com">
-                <img src={email} alt="Nat Email" height="10%" width="10%"></img>
+            <i className="fa fa-envelope fa-4x"><FontAwesomeIcon icon={faEnvelope} />
+                </i>
             </a>
-
-
         </div>
+        </footer>
     )
 }
 

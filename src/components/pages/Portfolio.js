@@ -3,6 +3,7 @@ import EAC from '../images/MAINEAC.png';
 import dayPlanner from '../images/MAINDAY.png';
 import MHT from '../images/LOGINMHT.png';
 import quiz from '../images/Screenshot-Index.png';
+import Card from 'react-bootstrap/Card';
 
 
 export default function Portfolio() {
