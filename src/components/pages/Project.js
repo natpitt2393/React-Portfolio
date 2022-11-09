@@ -1,21 +1,32 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Project(props) {
     return (
         <div className='project'>
            <Card>
-            <Card.Img></Card.Img>
+            <Card.Img />
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>{props.description}</Card.Text>
-                {/* <Card.Img>{props.img}</Card.Img> */}
                 <Card.Text>
-                    <a href={props.github}>Github</a>
+                    <a href={props.github}>
+                        <i className="fa fa-github fa-4x">
+                    <FontAwesomeIcon icon={faGithub} />
+                </i>
+                </a>
+                    
                 </Card.Text>
                 <Card.Text>
-                    <a href={props.deployedURL}>Deployed</a>
+                    <a href={props.deployedURL}>
+                        <i className="fa-solid fa-arrow-right fa-4x">
+                            <FontAwesomeIcon icon={faArrowRight} />
+                        </i>
+                    </a>
                 </Card.Text>
             </Card.Body>
             </Card> 

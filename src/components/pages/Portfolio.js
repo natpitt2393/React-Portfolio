@@ -19,7 +19,7 @@ export default function Portfolio() {
             {
                 id: 2,
                 projectName: "Mental Health Tracker",
-                description: "An app that allows you to create diary entries with different choices for mood input.After creating different diary entries you can see your mental health progress over time!",
+                description: "An app that allows you to create diary entries with different choices for mood input. After creating different diary entries you can see your mental health progress over time!",
                 deployedURL: "https://mental-health-tracker-ne.herokuapp.com/",
                 github: "https://github.com/natpitt2393/Mental-Health-Tracker",
                 img: MHT
@@ -40,7 +40,7 @@ export default function Portfolio() {
         };
 
         return (
-            <div className="Portfolio">
+            <div className="Portfolio text-center">
                <h1>Projects</h1> 
                 <div>
                    {Projects.map(createProjectCard)} 
