@@ -9,7 +9,7 @@ export default function Project(props) {
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>{props.description}</Card.Text>
-                <Card.Img>{props.img}</Card.Img>
+                {/* <Card.Img>{props.img}</Card.Img> */}
                 <Card.Text>
                     <a href={props.github}>Github</a>
                 </Card.Text>

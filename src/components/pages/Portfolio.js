@@ -3,7 +3,7 @@ import EAC from '../images/MAINEAC.png';
 import dayPlanner from '../images/MAINDAY.png';
 import MHT from '../images/LOGINMHT.png';
 import quiz from '../images/Screenshot-Index.png';
-import Project from '/Project';
+import Project from './Project';
 
 
 
