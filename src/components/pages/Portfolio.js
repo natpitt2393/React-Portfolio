@@ -27,20 +27,21 @@ export default function Portfolio() {
             },
             {
                 id: 3,
-                projectName: "A Quiz about the Sopranos",
-                description: "A quiz built through Javascript about New Jersey's favorite and most infamous crime family!",
-                deployedURL: "https://natpitt2393.github.io/A-Quiz-About-The-Sopranos/",
-                github: "https://github.com/natpitt2393/A-Quiz-About-The-Sopranos",
-                img: quiz
-            },
-            {
-                id: 4,
                 projectName: "Mixology Masters",
                 description: "Mixology Masters is the perfect way to get your drink on with friends and family for any occasion! Simply sign up on our website and order the cocktail of your dreams! We also have fun facts about each of our cocktails so be sure to read those as well. At the end, check out and we'll have your drink ready for you in just a few days!",
                 deployedURL: "https://mixology-masters.herokuapp.com/",
                 github: "https://github.com/SteveKoutsodontis/Mixology-Masters",
                 img: MM
             },
+            {
+                id: 4,
+                projectName: "A Quiz about the Sopranos",
+                description: "A quiz built through Javascript about New Jersey's favorite and most infamous crime family!",
+                deployedURL: "https://natpitt2393.github.io/A-Quiz-About-The-Sopranos/",
+                github: "https://github.com/natpitt2393/A-Quiz-About-The-Sopranos",
+                img: quiz
+            },
+           
             {
                 id: 5,
                 projectName: "Day Planner",
