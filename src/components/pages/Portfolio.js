@@ -3,6 +3,7 @@ import EAC from '../images/MAINEAC.png';
 import dayPlanner from '../images/MAINDAY.png';
 import MHT from '../images/LOGINMHT.png';
 import quiz from '../images/Screenshot-Index.png';
+import Projects from '/pages/Projects';
 
 
 
@@ -36,7 +37,16 @@ export default function Portfolio() {
                 img={projectCard.img}
                 />
             )
-        }
+        };
+
+        return (
+            <div className="Portfolio">
+               <h1>Projects</h1> 
+                <div>
+                   {Projects.map(createProjectCard)} 
+                </div>
+            </div>
+        )
 
 
 }
