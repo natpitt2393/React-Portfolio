@@ -1,20 +1,22 @@
 {
-  "files": {
-    "main.css": "/React-Portfolio/static/css/main.98624ee5.css",
-    "main.js": "/React-Portfolio/static/js/main.f2d73295.js",
-    "static/media/MAINEAC.png": "/React-Portfolio/static/media/MAINEAC.34457c4dae43590bd312.png",
-    "static/media/NHE_pic.JPG": "/React-Portfolio/static/media/NHE_pic.dda890b0cdda15e169e2.JPG",
-    "static/media/MAINDAY.png": "/React-Portfolio/static/media/MAINDAY.b5c60a847b3ef6788250.png",
-    "static/media/LOGINMHT.png": "/React-Portfolio/static/media/LOGINMHT.b03a0f4341861ac5d4fb.png",
-    "static/media/New_Nat_Epstein_Resume.pdf": "/React-Portfolio/static/media/New_Nat_Epstein_Resume.40cdf2f1fdfdf0b9feb2.pdf",
-    "static/media/Screenshot-Index.png": "/React-Portfolio/static/media/Screenshot-Index.5d7851723766e447dd9b.png",
-    "static/media/email.png": "/React-Portfolio/static/media/email.dbf14da7fa77545ea19d.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.98624ee5.css.map": "/React-Portfolio/static/css/main.98624ee5.css.map",
-    "main.f2d73295.js.map": "/React-Portfolio/static/js/main.f2d73295.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.98624ee5.css",
-    "static/js/main.f2d73295.js"
-  ]
+  "main.css": "/React-Portfolio/static/css/main.4dc59f82.chunk.css",
+  "main.js": "/React-Portfolio/static/js/main.e5e74395.chunk.js",
+  "main.js.map": "/React-Portfolio/static/js/main.e5e74395.chunk.js.map",
+  "static/css/1.2d65bb9a.chunk.css": "/React-Portfolio/static/css/1.2d65bb9a.chunk.css",
+  "static/js/1.78380bce.chunk.js": "/React-Portfolio/static/js/1.78380bce.chunk.js",
+  "static/js/1.78380bce.chunk.js.map": "/React-Portfolio/static/js/1.78380bce.chunk.js.map",
+  "runtime~main.js": "/React-Portfolio/static/js/runtime~main.804d233a.js",
+  "runtime~main.js.map": "/React-Portfolio/static/js/runtime~main.804d233a.js.map",
+  "static/media/NHE_pic.JPG": "/React-Portfolio/static/media/NHE_pic.a04eafe8.JPG",
+  "static/media/MAINEAC.png": "/React-Portfolio/static/media/MAINEAC.4d2b1663.png",
+  "static/media/MAINDAY.png": "/React-Portfolio/static/media/MAINDAY.58498305.png",
+  "static/media/MM.png": "/React-Portfolio/static/media/MM.ba69e0d7.png",
+  "static/media/LOGINMHT.png": "/React-Portfolio/static/media/LOGINMHT.6e29f7ec.png",
+  "static/media/Screenshot-Index.png": "/React-Portfolio/static/media/Screenshot-Index.dd2b81a7.png",
+  "static/media/New_Nat_Epstein_Resume.pdf": "/React-Portfolio/static/media/New_Nat_Epstein_Resume.a45e10dd.pdf",
+  "static/css/main.4dc59f82.chunk.css.map": "/React-Portfolio/static/css/main.4dc59f82.chunk.css.map",
+  "static/css/1.2d65bb9a.chunk.css.map": "/React-Portfolio/static/css/1.2d65bb9a.chunk.css.map",
+  "index.html": "/React-Portfolio/index.html",
+  "precache-manifest.0093058c8b2449caca59a1d62048780b.js": "/React-Portfolio/precache-manifest.0093058c8b2449caca59a1d62048780b.js",
+  "service-worker.js": "/React-Portfolio/service-worker.js"
 }
