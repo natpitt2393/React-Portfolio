@@ -1,0 +1,11 @@
+.hero {
+    background-image: url('./images/35mm.png');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+

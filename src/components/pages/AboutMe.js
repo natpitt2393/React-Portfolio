@@ -3,7 +3,7 @@ import natImg from '../images/NHE_pic.JPG';
 
 export default function AboutMe() {
   return (
-    <div className='text-center bg-dark text-danger'>
+    <div className='text-center'>
     <h1 className='text-danger'>About Me</h1>
       <p className='important-info px-5 py-4'>
         Nat Epstein is a new full-stack web developer eager to leverage his background experience in cinema and media studies, retail/customer service and education to create a more meaningful web experience for all users. He earned a certificate in full-stack web development from the Continuing Education department at Rutgers University that focused on HTML5, CSS3, JavaScript, React.JS, Node.JS, MySQL, MongoDB as well as many other technologies on both the front-end and back-end. Nat uses his BA and MA degrees in media studies even to this day as a web developer to look for patterns and to pay particular attention to detail. From those details, he can build up a more comprehensive view of the bigger picture. As a motivator and team player, Nat always looks to bring out the best in all those around him and strives to explain difficult concepts in clear and concise terms, as he did from his time as a graduate teaching assistant at The New School and as an adjunct instructor at Rutgers University in the Graduate School of Education. Most recently, during his time as a Store Experience Associate at the Family Experience Store, Camp, he cultivated his skills in salesmanship and customer service. Though his path to web development is non-traditional, he will make a valuable asset to your team as an analytical, quick-learning, highly motivated individual who can work well independently and with others. He hopes to make meaningful contributions to the world of web development. 

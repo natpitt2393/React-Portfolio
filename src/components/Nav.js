@@ -1,7 +1,9 @@
 import React from 'react';
+import './Nav.css';
 
-function Nav({ currentPage, handlePageChange }) {
+export default function Nav({ currentPage, handlePageChange }) {
   return (
+    <div className='hero'>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -44,7 +46,8 @@ function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 
-export default Nav;
+
