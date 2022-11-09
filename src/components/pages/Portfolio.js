@@ -3,7 +3,7 @@ import EAC from '../images/MAINEAC.png';
 import dayPlanner from '../images/MAINDAY.png';
 import MHT from '../images/LOGINMHT.png';
 import quiz from '../images/Screenshot-Index.png';
-import Projects from '/pages/Projects';
+import Project from '/Project';
 
 
 
@@ -28,7 +28,7 @@ export default function Portfolio() {
 
         function createProjectCard(projectCard) {
             return (
-                <Projects 
+                <Project 
                 key={projectCard.id}
                 name={projectCard.projectName}
                 description={projectCard.description}
