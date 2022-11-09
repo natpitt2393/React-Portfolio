@@ -13,7 +13,7 @@ export default function Portfolio() {
             description: "A website that allows movie buffs and amateurs alike to look up movies they love or want to see. After finding some bare bone facts about the movie, the user can then decide to look up the New York Times review of that movie.",
             deployedURL: "https://natpitt2393.github.io/Everyone-s-A-Critic/",
             github: "https://github.com/natpitt2393/Everyone-s-A-Critic#everyones-a-critic",
-            img: "src/components/images/MAINEAC.png"
+            img: EAC
         },
             {
                 id: 2,
@@ -21,9 +21,22 @@ export default function Portfolio() {
                 description: "An app that allows you to create diary entries with different choices for mood input.After creating different diary entries you can see your mental health progress over time!",
                 deployedURL: "https://mental-health-tracker-ne.herokuapp.com/",
                 github: "https://github.com/natpitt2393/Mental-Health-Tracker",
-                img: "src/components/images/LOGINMHT.png"
+                img: MHT
             }
-        ]
+        ];
 
-        
+        function createProjectCard(projectCard) {
+            return (
+                <Projects 
+                key={projectCard.id}
+                name={projectCard.projectName}
+                description={projectCard.description}
+                deployedURL={projectCard.deployedURL}
+                github={projectCard.github}
+                img={projectCard.img}
+                />
+            )
+        }
+
+
 }
