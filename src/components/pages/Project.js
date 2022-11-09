@@ -6,6 +6,7 @@ export default function Project(props) {
     return (
         <div className='project'>
            <Card>
+            <Card.Img></Card.Img>
             <Card.Body>
                 <Card.Title>{props.name}</Card.Title>
                 <Card.Text>{props.description}</Card.Text>
