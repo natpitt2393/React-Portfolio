@@ -9,9 +9,9 @@ export default function Project(props) {
     return (
         <div className='project'>
            <Card>
-            <Card.Img src={props.img} />
+            <Card.Img src={props.img} style={{width: "30%", height: "30%", alignSelf: "center"}} />
             <Card.Body>
-                <Card.Title>{props.name}</Card.Title>
+                <Card.Title>{props.name} </Card.Title>
                 <Card.Text>{props.description}</Card.Text>
                 <Card.Text>
                     <a href={props.github}>
