@@ -1,10 +1,12 @@
 import React from 'react';
 import './Nav.css';
 
+
 export default function Nav({ currentPage, handlePageChange }) {
   return (
     <div className='hero'>
-    <ul className="nav nav-tabs">
+      <nav className='d-flex justify-content-between'>
+    <ul className="nav nav-tabs py-1">
       <li className="nav-item">
         <a
           href="#about-me"
@@ -46,6 +48,7 @@ export default function Nav({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </nav>
     </div>
   );
 }

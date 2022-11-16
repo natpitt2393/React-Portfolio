@@ -1,11 +1,19 @@
 .hero {
     background-image: url('./images/35mm.png');
-    background-size: cover;
+    background-size:contain;
     background-position: center;
     height: 350px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: right;
     overflow: hidden;
 }
 
+.nav-link {
+    color: red;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'El Messiri', sans-serif;
+    margin-left: 50px;
+    align-items: center;
+}

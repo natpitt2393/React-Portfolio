@@ -7,7 +7,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function Project(props) {
     return (
-        <div className='project'>
+        <div className='project '>
            <Card>
             <Card.Img src={props.img} style={{width: "30%", height: "30%", alignSelf: "center"}} />
             <Card.Body>
