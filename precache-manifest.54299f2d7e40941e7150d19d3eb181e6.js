@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e5e74395c51eb62bd0be",
-    "url": "/React-Portfolio/static/css/main.4dc59f82.chunk.css"
+    "revision": "d0cde64a90a97eed417d",
+    "url": "/React-Portfolio/static/css/main.4598ff86.chunk.css"
   },
   {
-    "revision": "e5e74395c51eb62bd0be",
-    "url": "/React-Portfolio/static/js/main.e5e74395.chunk.js"
+    "revision": "d0cde64a90a97eed417d",
+    "url": "/React-Portfolio/static/js/main.d0cde64a.chunk.js"
   },
   {
     "revision": "78380bced76d83ab4daf",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/React-Portfolio/static/media/Screenshot-Index.dd2b81a7.png"
   },
   {
-    "revision": "a45e10dd0da8a6057955135b7530e392",
-    "url": "/React-Portfolio/static/media/New_Nat_Epstein_Resume.a45e10dd.pdf"
+    "revision": "c4b37f5c4f2d252dc3f59f10a2befde2",
+    "url": "/React-Portfolio/static/media/Nat_Epstein_Resume.c4b37f5c.pdf"
   },
   {
-    "revision": "a72230d89f0dc9de0cf5d4439fad385e",
+    "revision": "339cc59bd9e7c13f970805110a093f70",
     "url": "/React-Portfolio/index.html"
   }
 ];
