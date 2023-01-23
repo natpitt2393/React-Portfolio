@@ -7,8 +7,9 @@ import './Footer.css';
 
 export default function Footer() {
     return (
-        <footer className="footer">
-        <div className="text-center">
+        <footer className="footer py-5">
+        <div className="d-flex justify-content-around">
+            <div className='icons'>
             <a
                 href="https://github.com/natpitt2393"
             >
@@ -28,6 +29,7 @@ export default function Footer() {
             <i className="fa fa-envelope fa-4x" style={{'marginLeft': "10px"}}><FontAwesomeIcon icon={faEnvelope} />
                 </i>
             </a>
+            </div>
         </div>
         </footer>
     )

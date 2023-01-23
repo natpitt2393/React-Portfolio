@@ -1,6 +1,6 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import resume from '../assets/New_Nat_Epstein_Resume.pdf';
+import resume from '../assets/Nat_Epstein_Resume.pdf';
 
 export default function Resume() {
     return (
