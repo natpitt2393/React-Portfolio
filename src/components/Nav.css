@@ -1,6 +1,6 @@
 .hero {
     background-image: url('./images/35mm.png');
-    background-size:contain;
+    background-size: contain;
     background-position: center;
     height: 350px;
     display: flex;
@@ -10,10 +10,9 @@
 }
 
 .nav-link {
-    color: red;
+    color: rgb(255, 119, 0);
     font-weight: bolder;
     font-size: x-large;
-    font-family: 'El Messiri', sans-serif;
     margin-left: 50px;
     align-items: center;
 }

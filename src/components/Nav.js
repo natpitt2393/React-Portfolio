@@ -1,10 +1,12 @@
 import React from 'react';
 import './Nav.css';
+import Navbar from 'react-bootstrap/Navbar';
 
 
 export default function Nav({ currentPage, handlePageChange }) {
   return (
     <div className='hero'>
+      <Navbar className='justify-content-center'>
       <nav className='d-flex justify-content-between'>
     <ul className="nav nav-tabs py-1">
       <li className="nav-item">
@@ -49,6 +51,7 @@ export default function Nav({ currentPage, handlePageChange }) {
       </li>
     </ul>
     </nav>
+    </ Navbar >
     </div>
   );
 }

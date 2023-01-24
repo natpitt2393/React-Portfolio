@@ -67,7 +67,6 @@ export default function Portfolio() {
 
         return (
             <div className="Portfolio text-center">
-               <h1>Projects</h1> 
                 <div>
                    {Projects.map(createProjectCard)} 
                 </div>

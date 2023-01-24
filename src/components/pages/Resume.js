@@ -34,7 +34,7 @@ export default function Resume() {
                         <th scope="row">Bootstrap</th>
                     </tr>
                     <tr>
-                        <th scope="row">Javascript</th>
+                        <th scope="row">JavaScript</th>
                     </tr>
                 </tbody>
             </table>
@@ -50,7 +50,7 @@ export default function Resume() {
                         <th scope="row">Node.js</th>
                     </tr>
                     <tr>
-                        <th scope="row">MySql/Sequelize</th>
+                        <th scope="row">MySQL/Sequelize</th>
                     </tr>
                     <tr>
                         <th scope="row">MongoDB/Mongoose</th>
